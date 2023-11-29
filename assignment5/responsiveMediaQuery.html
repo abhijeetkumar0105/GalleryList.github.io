@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+.square {
+  height: 200px;
+  width: 60%;
+  background-color: white;
+margin: auto;
+}
+.square1 {
+  height: 400px;
+  width: 60%;
+  background-color: gold;
+margin: auto;
+}
+.center {
+width: 75%;
+margin-top: -50px;
+margin-left:40px;
+}
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}</style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="margin: 50px;height: 100%;background-color: rgb(14, 14, 14);">
-<img src="Screenshot 2023-11-27 202907.png" style="display: block;-webkit-user-select: none; margin: auto;background-color: hsl(0, 0%, 90%); transition: background-color 300ms;width: 60%;"/>
+<div class="square"></div>
+<div class="square1 article-container"><div class="article" > <img src="Screenshot 2023-11-29 185817.png" class="center"/> </div><div class="article"> <center style="margin-top:40px;"> <H2> Certified coffee Courses</H2><br><br><H4> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  </H5></center>
+<br><center><button style="background: black; color: white;">Learn More</button></center></div></div>
+
 </body>
 </html>
